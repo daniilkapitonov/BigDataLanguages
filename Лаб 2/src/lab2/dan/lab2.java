@@ -126,7 +126,7 @@ public class lab2 {
         {
             for (int j=0; j!=n; j++)
             {
-                a[i][j] = (r.nextInt(n*2) - n);
+                a[i][j] = (r.nextInt(n*2) - n - 1);
             }
         }
         print_mass(a,n);
@@ -148,6 +148,8 @@ public class lab2 {
         System.out.println("\nВариант 2 №10");
         int[] max_x = new int[n*n];
         int[] max_y = new int[n*n];
+        int[] mass_cash = new int[n*n];
+        mass_cash[0] = n*n;
         int max = 0;
         int max_i=0;
         for (int i=0; i!=n; i++)
@@ -156,14 +158,18 @@ public class lab2 {
             {
                 if (a[i][j] >= max)
                 {
-                    max = a[i][j];
-                    max_x[max_i] = i;
-                    max_y[max_i] = j;
-                    if (a[i][j] == max && max_x[max_i]!=i)
-                    {
+                    if (a[i][j] == max) {
                         max_i++;
                         max_x[max_i] = i;
                         max_y[max_i] = j;
+                    } else
+                    {
+                        max = a[i][j];
+                        max_x = Arrays.copyOf(mass_cash, n*n);
+                        max_y = Arrays.copyOf(mass_cash, n*n);
+                        max_x[0] = i;
+                        max_y[0] = j;
+                        max_i = 0;
                     }
                 }
             }
@@ -177,16 +183,19 @@ public class lab2 {
                 max_y[i] += n*n;
             }
         }
-        System.out.println(max_i+Arrays.toString(max_x)+" "+Arrays.toString(max_y));
+
+        System.out.println(max_i+Arrays.toString(max_x)+"\n "+Arrays.toString(max_y));
         int[][] new_a = new int[n-max_i][n-max_i];
         int new_i=0, new_j=0;
-
+        Arrays.sort(max_x);
+        Arrays.sort(max_y);
         for (int i=0;i!=n;i++)
+
         {
             if (Arrays.binarySearch(max_x, i) < 0)
             {
                 for (int j = 0; j != n; j++) {
-                    //System.out.printf("x = %d, y = %d\n", Arrays.binarySearch(max_x, i), (Arrays.binarySearch(max_y, j)));
+                    //System.out.printf("i = %d, j = %d, x = %d, y = %d\n",i,j, Arrays.binarySearch(max_x, i), (Arrays.binarySearch(max_y, j)));
                     if (Arrays.binarySearch(max_y, j) < 0 && (Arrays.binarySearch(max_x, i) < 0)) {
                         //System.out.printf("В массив добавлен элемент %d, x = %d, y= %d\n", a[i][j], new_i, new_j);
                         new_a[new_i][new_j] = a[i][j];
