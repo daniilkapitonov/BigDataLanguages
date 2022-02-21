@@ -32,6 +32,30 @@ public class lab1 {
             System.out.println(str[i]);
         }
         System.out.println("\n\nВАРИАНТ 1 № 4");
+        boolean flag = true;
+        int tryings = 0;
+        while (flag) {
+            int pass_num = (int) (Math.random() * 10000);
+            String pass = "Qwerty" + pass_num;
+            System.out.println("Введите ваш пароль. В конце (без пробела) добавьте проверочный код: " + pass_num);
+            System.out.print("Пароль:");
+            String vvod = in.next();
+            if (pass.equals(vvod)) {
+                System.out.println("Пароль введён верно");
+                flag = false;
+            } else {
+                tryings++;
+
+                if (tryings > 5)
+                {
+                    System.out.println("Вы ввели пароль не верно 5 раз. Страница авторизации закрывается.");
+                    flag = false;
+                } else
+                {
+                    System.out.println("Пароль введён не верно. Осталось попыток:"+ (5 - tryings));
+                }
+            }
+        }
         
 
     }
