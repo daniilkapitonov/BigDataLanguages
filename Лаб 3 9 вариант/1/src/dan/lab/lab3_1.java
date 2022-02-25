@@ -24,6 +24,7 @@ public class lab3_1 {
             this.c =  r.nextInt(12);
             this.x1 = x;
         }
+
         public void kv_print()
         {
             System.out.printf("Уравнение имеет вид: %d*x^2+%d*x+%d=0\n",this.a, this.b,this.c);

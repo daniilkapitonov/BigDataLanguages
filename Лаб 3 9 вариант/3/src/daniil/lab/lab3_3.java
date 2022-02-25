@@ -5,10 +5,15 @@ public class lab3_3 {
     {
         private String ph_name;
         private String f_pass;
+        private photo(String ph_name, String f_pass) {
+            this.ph_name = ph_name;
+            this.f_pass = f_pass;
+        }
     }
-    public static class photoalbum extends photo
+    public static class photoalbum
     {
         private String alb_name;
-        photo[] album;
+        private photo[] album;
+
     }
 }
