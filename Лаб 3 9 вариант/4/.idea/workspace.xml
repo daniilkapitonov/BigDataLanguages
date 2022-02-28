@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="218261d5-2def-4bd7-9821-0f056910ad70" name="Changes" comment="" />
+    <list default="true" id="791e7f6d-97f7-41bc-92ae-e7d6d0307dd2" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,25 +20,20 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="25baXcmpSEjUn8MbkIWYFzkLo1C" />
+  <component name="ProjectId" id="25jKlXRpk9tXpEwkoadBNsXuJWT" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.Annotations" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="daniil.lab.lab3_3" />
-      <module name="lab3_3" />
+      <option name="MAIN_CLASS_NAME" value="dan.lab.lab3_4" />
+      <module name="lab3_4" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -50,11 +42,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="218261d5-2def-4bd7-9821-0f056910ad70" name="Changes" comment="" />
-      <created>1645798282147</created>
+      <changelist id="791e7f6d-97f7-41bc-92ae-e7d6d0307dd2" name="Changes" comment="" />
+      <created>1646035207112</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1645798282147</updated>
+      <updated>1646035207112</updated>
     </task>
     <servers />
   </component>
