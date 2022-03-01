@@ -154,64 +154,153 @@ public class lab3_4_10 {
         train trains = (train) cash_c;
         trainobj.close();
         System.out.println("Поезда загружены");
+        while (true) {
         Scanner in_1 = new Scanner(System.in);
         System.out.println("Вы пассажир или администратор? 1 - пассажир, 2 - администратор, 3 - выйти");
         int who = in_1.nextInt();
-        while (who !=3 && who!=55 && who !=66){
-            Scanner in = new Scanner(System.in);
-            switch (who){
-                case 1:
-                    System.out.println("Пассажир, введите своё имя");
-                    String p_name = in.nextLine();
-                    int p_id = passangers.search_pas(p_name);
-                    if (p_id!=-1){
-                        System.out.println("Добро пожаловать!");
-                        who = 55;
-                    }else{
-                        who=-1;
-                    }
-                    System.out.println(passangers.toString(p_id));
-                    break;
-                case 2:
-                    System.out.println("Введите пароль");
-                    if (in.nextLine().equals("123"))
-                    {
-                        System.out.println("Успешно");
-                        who = 66;
-                    }else{
-                        System.out.println("Пароль введён не верно");
+        String p_name="";
+        int p_id = 0;
+
+            while (who != 3 && who != 55 && who != 66) {
+                Scanner in = new Scanner(System.in);
+                switch (who) {
+                    case 1:
+                        System.out.println("Пассажир, введите своё имя");
+                        p_name = in.nextLine();
+                        p_id = passangers.search_pas(p_name);
+                        if (p_id != -1) {
+                            System.out.println("Добро пожаловать!");
+                            who = 55;
+                        } else {
+                            who = -1;
+                        }
+                        System.out.println(passangers.toString(p_id));
+                        break;
+                    case 2:
+                        System.out.println("Введите пароль");
+                        if (in.nextLine().equals("123")) {
+                            System.out.println("Успешно");
+                            who = 66;
+                        } else {
+                            System.out.println("Пароль введён не верно");
+                            who = -1;
+                        }
+                        break;
+                    case 3:
+                        who = 3;
+                    default:
+                        System.out.println("Такого пункта меню нет в списке");
                         who = -1;
+                }
+                if (who == -1) {
+                    System.out.println("Вы пассажир или администратор? 1 - пассажир, 2 - администратор, 3 - выйти");
+                    who = in.nextInt();
+
+                }
+            }
+
+            if (who != 3) {
+                System.out.println("Добро пожаловать в систему покупки билетов");
+                boolean check = true;
+                while (check) {
+                    if (who == 55) {
+                        System.out.println("Пассажир, выбери пункт меню для совершения действий\n1 - купить билет, 2 - пополнить балланс, 3 - выйти");
+                        Scanner in_p = new Scanner(System.in);
+                        switch (Integer.parseInt(in_p.nextLine())) {
+                            case 1:
+                                System.out.println("Введите город отправления и время отправления");
+                                in_p.reset();
+                                String city = in_p.nextLine();
+                                int t_out = Integer.parseInt(in_p.nextLine());
+                                System.out.println("Информация о поезде");
+                                int tr_id = trains.searchg_train(city, t_out);
+                                System.out.println(trains.toString(tr_id));
+                                System.out.println("Купить билет на этот поезд? 1 - да, 2 - нет");
+                                switch (in_p.nextLine()) {
+                                    case "1":
+                                        if (passangers.pas_list.get(p_id).balance >= trains.train_list.get(tr_id).cost) {
+                                            passangers.pas_list.get(p_id).balance -= trains.train_list.get(tr_id).cost;
+                                            System.out.println("Покупка совершена");
+                                        } else {
+                                            System.out.println("У вас недостаточно средств");
+                                        }
+                                        break;
+                                    case "2":
+                                        System.out.println("Отмена покупки");
+                                        break;
+                                    default:
+                                        System.out.println("Такого пункта меню нет");
+                                        break;
+                                }
+                                break;
+                            case 2:
+                                System.out.println("Введите сумму поплнения");
+                                int value = Integer.parseInt(in_p.nextLine());
+                                passangers.pas_list.get(p_id).add_money_pass(value);
+                                System.out.println(passangers.pas_list.get(p_id).toString());
+                            case 3:
+                                check = false;
+                                break;
+                            default:
+                                System.out.println("Такого пункта меню нет");
+                                break;
+                        }
+                    } else {
+                        System.out.println("Администратор, выбери пункт меню для совершения действий\n1 - добавить поезд, 2 - посмотрет информацию о поезде, 3 - выйти");
+                        Scanner in_a = new Scanner(System.in);
+                        switch (in_a.nextLine()) {
+                            case "1":
+                                System.out.println("Введите:");
+                                System.out.print("Место прибытия - ");
+                                String d_in = in_a.nextLine();
+                                System.out.print("Место отбытия - ");
+                                String d_out = in_a.nextLine();
+                                System.out.print("День отправки - ");
+                                int day = Integer.parseInt(in_a.nextLine());
+                                System.out.print("Время отправки - ");
+                                int t_out = Integer.parseInt(in_a.nextLine());
+                                System.out.print("Время прибытия - ");
+                                int t_in = Integer.parseInt(in_a.nextLine());
+                                System.out.print("Стоимость - ");
+                                int cost = Integer.parseInt(in_a.nextLine());
+                                trains.add_train(d_in, d_out, day, t_out, t_in, cost);
+                                System.out.println("Новый рейс успешно добавлен");
+                                System.out.println(trains.train_list.get(trains.searchg_train(d_out, t_out)).toString());
+                                break;
+                            case "2":
+                                System.out.println("Введите:");
+                                System.out.print("Место отбытия - ");
+                                d_out = in_a.nextLine();
+                                System.out.print("Время отправки - ");
+                                t_out = Integer.parseInt(in_a.nextLine());
+                                System.out.println(trains.train_list.get(trains.searchg_train(d_out, t_out)).toString());
+                                break;
+                            case "3":
+                                check = false;
+                                break;
+                            default:
+                                System.out.println("Такого пункта меню нет");
+                                break;
+                        }
                     }
-                    break;
-                case 3:
-                    who = 3;
-                default:
-                    System.out.println("Такого пункта меню нет в списке");
-                    who=-1;
+                }
             }
-            if (who ==-1){
-                System.out.println("Вы пассажир или администратор? 1 - пассажир, 2 - администратор, 3 - выйти");
-                who = in.nextInt();
 
-            }
+
+            //passanger c_pass = new passanger();
+            //c_pass.add_pas("Вася", 10000);
+            FileOutputStream pass_file_w = new FileOutputStream("passobj.txt");
+            ObjectOutputStream passobj_w = new ObjectOutputStream(pass_file_w);
+            passobj_w.writeObject(passangers);
+            passobj_w.close();
+
+            //train c_train = new train();
+            //c_train.add_train("Питер","Москва",4,6,20,1200);
+            FileOutputStream train_file_w = new FileOutputStream("trainobj.txt");
+            ObjectOutputStream trainobj_w = new ObjectOutputStream(train_file_w);
+            trainobj_w.writeObject(trains);
+            trainobj_w.close();
         }
-
-
-
-
-        //passanger c_pass = new passanger();
-        //c_pass.add_pas("Вася", 10000);
-        FileOutputStream pass_file_w = new FileOutputStream("passobj.txt");
-        ObjectOutputStream passobj_w = new ObjectOutputStream(pass_file_w);
-        passobj_w.writeObject(passangers);
-        passobj_w.close();
-
-        //train c_train = new train();
-        //c_train.add_train("Питер","Москва",4,6,20,1200);
-        FileOutputStream train_file_w = new FileOutputStream("trainobj.txt");
-        ObjectOutputStream trainobj_w = new ObjectOutputStream(train_file_w);
-        trainobj_w.writeObject(trains);
-        trainobj_w.close();
 
     }
 }
