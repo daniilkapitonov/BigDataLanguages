@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="791e7f6d-97f7-41bc-92ae-e7d6d0307dd2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dan/lab/lab3_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dan/lab/lab3_4.java" afterDir="false" />
-    </list>
+    <list default="true" id="791e7f6d-97f7-41bc-92ae-e7d6d0307dd2" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,8 +36,8 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
-    <configuration name="lab3_4" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dan.lab.lab3_4" />
+    <configuration name="Lab3_4" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dan.lab.Lab3_4" />
       <module name="lab3_4" />
       <method v="2">
         <option name="Make" enabled="true" />

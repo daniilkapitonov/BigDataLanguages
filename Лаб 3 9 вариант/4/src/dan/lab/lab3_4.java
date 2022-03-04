@@ -1,37 +1,31 @@
 package dan.lab;
 
-import javafx.scene.shape.Path;
-import sun.security.util.ByteArrays;
-
-import javax.sound.midi.Soundbank;
 import java.io.*;
-import java.io.File;
 import java.io.FileOutputStream;
-import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class lab3_4 {
-    public static class item implements Serializable{
+public class Lab3_4 {
+    public static class Item implements Serializable{
         private static final long serialVersionUID = 2609875448065146411L;
         private String name;
         private int cost;
         private int count;
-        public ArrayList<item> items_sell;
+        public ArrayList<Item> items_sell;
 
-        public item() {
+        public Item() {
             items_sell = new ArrayList<>();
 
         }
 
-        public item(String name, int cost, int count) {
+        public Item(String name, int cost, int count) {
             this.name = name;
             this.cost = cost;
             this.count = count;
         }
 
         public void add_item(String name, int cost, int count){
-            item cash = new item(name,cost, count);
+            Item cash = new Item(name,cost, count);
             this.items_sell.add(cash);
         }
         public void add_count_item(String name, int cost, int count){
@@ -82,24 +76,24 @@ public class lab3_4 {
         }
     }
 
-    public static class client implements Serializable{
+    public static class Client implements Serializable{
         private String FIO;
         private boolean ban;
         private int balance;
-        public ArrayList<client> clients;
+        public ArrayList<Client> clients;
 
-        public client(String FIO, int balance) {
+        public Client(String FIO, int balance) {
             this.FIO = FIO;
             this.ban = false;
             this.balance = balance;
         }
 
-        public client() {
+        public Client() {
             clients = new ArrayList<>();
         }
 
         public void add_new_client(String FIO, int balance){
-            client cash = new client(FIO, balance);
+            Client cash = new Client(FIO, balance);
             clients.add(cash);
         }
 
@@ -186,14 +180,14 @@ public class lab3_4 {
         FileInputStream items_file = new FileInputStream("itemsobj.txt");
         ObjectInputStream itemsobj = new ObjectInputStream(items_file);
         Object cash_i = itemsobj.readObject();
-        item items = (item) cash_i;
+        Item items = (Item) cash_i;
         itemsobj.close();
         System.out.println("Товары загружены");
 
         FileInputStream clients_file = new FileInputStream("clientsobj.txt");
         ObjectInputStream clientsobj = new ObjectInputStream(clients_file);
         Object cash_c = clientsobj.readObject();
-        client clients_list = (client) cash_c;
+        Client clients_list = (Client) cash_c;
         clientsobj.close();
         System.out.println("Клиенты загружены");
 while (true) {

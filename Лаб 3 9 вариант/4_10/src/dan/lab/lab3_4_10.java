@@ -4,18 +4,18 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class lab3_4_10 {
-    public static class passanger implements Serializable{
+public class Lab3_4_10 {
+    public static class Passanger implements Serializable{
         private String FIO;
         private int balance;
-        public ArrayList<passanger> pas_list;
+        public ArrayList<Passanger> pas_list;
 
-        public passanger(String FIO, int balance) {
+        public Passanger(String FIO, int balance) {
             this.FIO = FIO;
             this.balance = balance;
         }
 
-        public passanger() {
+        public Passanger() {
             pas_list = new ArrayList<>();
         }
 
@@ -39,7 +39,7 @@ public class lab3_4_10 {
         }
 
         public void add_pas(String FIO, int balance){
-            passanger cash = new passanger(FIO, balance);
+            Passanger cash = new Passanger(FIO, balance);
             this.pas_list.add(cash);
         }
 
@@ -57,16 +57,16 @@ public class lab3_4_10 {
         }
     }
 
-    public static class train implements Serializable{
+    public static class Train implements Serializable{
         private String depin;
         private String depout;
         private int day;
         private int t_out;
         private int t_in;
         private int cost;
-        ArrayList<train> train_list;
+        ArrayList<Train> train_list;
 
-        public train(String depin, String depout, int day, int t_out, int t_in, int cost) {
+        public Train(String depin, String depout, int day, int t_out, int t_in, int cost) {
             this.depin = depin;
             this.depout = depout;
             this.day = day;
@@ -75,7 +75,7 @@ public class lab3_4_10 {
             this.cost = cost;
         }
 
-        public train() {
+        public Train() {
             train_list = new ArrayList<>();
         }
 
@@ -107,7 +107,7 @@ public class lab3_4_10 {
         }
 
         public void add_train(String depin, String depout, int day, int t_out, int t_in, int cost){
-            train cash = new train(depin, depout, day, t_out, t_in, cost);
+            Train cash = new Train(depin, depout, day, t_out, t_in, cost);
             this.train_list.add(cash);
         }
 
@@ -144,14 +144,14 @@ public class lab3_4_10 {
         FileInputStream pass_file = new FileInputStream("passobj.txt");
         ObjectInputStream passobj = new ObjectInputStream(pass_file);
         Object cash_i = passobj.readObject();
-        passanger passangers = (passanger) cash_i;
+        Passanger passangers = (Passanger) cash_i;
         passobj.close();
         System.out.println("Пассажиры загружены");
 
         FileInputStream train_file = new FileInputStream("trainobj.txt");
         ObjectInputStream trainobj = new ObjectInputStream(train_file);
         Object cash_c = trainobj.readObject();
-        train trains = (train) cash_c;
+        Train trains = (Train) cash_c;
         trainobj.close();
         System.out.println("Поезда загружены");
         while (true) {
