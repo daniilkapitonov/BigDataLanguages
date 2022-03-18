@@ -148,7 +148,7 @@ public class lab {
 
 
     interface Film{
-        public String getname();
+        String getname();
     }
     public static class Rus_film implements Film{
         String name;
