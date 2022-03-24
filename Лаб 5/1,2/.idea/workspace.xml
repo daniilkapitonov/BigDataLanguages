@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3967dd89-d6a2-4c04-93f5-ac2663c644b0" name="Changes" comment="" />
+    <list default="true" id="3967dd89-d6a2-4c04-93f5-ac2663c644b0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3,4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../3,4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3,4/out/production/Lab5_3_4/daniil/lab/Lab5_3_4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../3,4/out/production/Lab5_3_4/daniil/lab/Lab5_3_4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3,4/src/daniil/lab/Lab5_3_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../3,4/src/daniil/lab/Lab5_3_4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3,4/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../3,4/test.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +35,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
