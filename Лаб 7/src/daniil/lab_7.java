@@ -101,21 +101,84 @@ public class lab_7 {
                 "Чтоб лопнули на шее жилы, " +
                 "Чтоб кровь проклятая текла.";
         String[] words5 = text5.split(" ");
+        boolean checkN = false;
 
         for (int i=0; i!=alph2.length; i++){
             for (int j=0; j!=words5.length;j++){
-                if (String.valueOf(words5[j].charAt(0)).equals(alph2[i])){
-                    System.out.print(words5[i]+ " ");
+//                System.out.println(String.valueOf(words5[j].charAt(0)).toLowerCase(Locale.ROOT).equals("а")+ alph2[i]);
+//                System.out.println(String.valueOf(words5[j].charAt(0)).toLowerCase(Locale.ROOT).equals(alph2[i]) + " "+ words5[j]+ " "+ alph2[i]);
+                if (String.valueOf(words5[j].charAt(0)).toLowerCase(Locale.ROOT).equals(alph2[i])){
+                    System.out.print(words5[j]+ " ");
+                    checkN = true;
                 }
             }
-            System.out.println();
+            if (checkN) System.out.println();
+            checkN = false;
+        }
+        System.out.println("Вариант 3 №10");
+        String[] alph6 = "а е ё и о у ы э ю я".split(" ");
+        String text6 = "И мы подымем их на вилы, " +
+                "Мы а петлях раскачнем тела, " +
+                "Чтоб лопнули на шее жилы, " +
+                "Чтоб кровь проклятая текла.";
+        String[] words6 = text6.split(" ");
+        int[] words_mass = new int[words6.length];
+        System.out.println(text6);
+        for (int i = 0; i!=words6.length; i++){
+            int gl_count=0;
+            for (int j=0; j!=words6[i].length(); j++){
+                if (Arrays.asList(alph6).contains(String.valueOf(words6[i].charAt(j)).toLowerCase(Locale.ROOT))){
+                    gl_count+=1;
+                }
+            }
+            words_mass[i] = gl_count;
         }
 
+        for (int i=0; i!=words_mass.length; i++){
+            for (int j=0; j!=words_mass.length; j++){
+                if (words_mass[i] < words_mass[j]){
+                    int cash = words_mass[i];
+                    words_mass[i] = words_mass[j];
+                    words_mass[j] = cash;
 
+                    String cashS = words6[i];
+                    words6[i] = words6[j];
+                    words6[j] = cashS;
+                }
+            }
+        }
+        System.out.println(Arrays.toString(words6));
 
+        System.out.println("Вариант 4 №9");
+        String text7 = "И мы подымем их на вилы, " +
+                "Мы а петлях раскачнем тела, " +
+                "Чтоб лопнули на шее жилы, " +
+                "Чтоб кровь rtgrrgh проклятая текла.";
+        String[] words7 = text7.split(" ");
+        System.out.println(Arrays.toString(words7));
+        for (int i=0; i!=words7.length;i++){
+            String w1 = String.valueOf(words7[i].charAt(0));
+            words7[i] = w1 + words7[i].replace(w1,"");
+        }
+        System.out.println(Arrays.toString(words7));
 
-
-
+        System.out.println("Вариант 4 №10");
+        String text8 = "И мы подымем их на вилы\n" +
+                "Мы а петлях раскачнем тела\n" +
+                "Чтоб лопнули на шее жилч\n" +
+                "Чтоб кровь rtgrrgh проклятая текч";
+        String[] words8 = text8.split("\n");
+        System.out.println(text8);
+        System.out.println();
+        int[] str_l = new int[words8.length];
+        String cash_str = "";
+        for (int i =0 ; i!=words8.length; i++){
+            if (String.valueOf(words8[i].charAt(0)).toLowerCase(Locale.ROOT).equals(String.valueOf(words8[i].
+                    charAt(words8[i].length()-1)).toLowerCase(Locale.ROOT))){
+                if (cash_str.length() < words8[i].length()) cash_str = words8[i];
+            }
+        }
+        System.out.println(text8.replace(cash_str, ""));
 
 
 
