@@ -4,7 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="791e7f6d-97f7-41bc-92ae-e7d6d0307dd2" name="Changes" comment="" />
+    <list default="true" id="791e7f6d-97f7-41bc-92ae-e7d6d0307dd2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Лаб 1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Лаб 1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Лаб 1_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Лаб 1_2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Лаб 1_2/src/dan/lab1_2/lab1_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Лаб 1_2/src/dan/lab1_2/lab1_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Лаб 2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Лаб 2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3/out/production/lab3_3/daniil/lab/lab3_3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../3/out/production/lab3_3/daniil/lab/lab3_3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clientsobj.txt" beforeDir="false" afterPath="$PROJECT_DIR$/clientsobj.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itemsobj.txt" beforeDir="false" afterPath="$PROJECT_DIR$/itemsobj.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab3_4/dan/lab/lab3_4$client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3_4/dan/lab/lab3_4$client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab3_4/dan/lab/lab3_4$item.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3_4/dan/lab/lab3_4$item.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab3_4/dan/lab/lab3_4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3_4/dan/lab/lab3_4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dan/lab/lab3_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dan/lab/Lab3_4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_10/out/production/4_10/dan/lab/lab3_4_10$passanger.class" beforeDir="false" afterPath="$PROJECT_DIR$/../4_10/out/production/4_10/dan/lab/lab3_4_10$passanger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_10/out/production/4_10/dan/lab/lab3_4_10$train.class" beforeDir="false" afterPath="$PROJECT_DIR$/../4_10/out/production/4_10/dan/lab/lab3_4_10$train.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_10/out/production/4_10/dan/lab/lab3_4_10.class" beforeDir="false" afterPath="$PROJECT_DIR$/../4_10/out/production/4_10/dan/lab/lab3_4_10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_10/passobj.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../4_10/passobj.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_10/src/dan/lab/lab3_4_10.java" beforeDir="false" afterPath="$PROJECT_DIR$/../4_10/src/dan/lab/Lab3_4_10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_10/trainobj.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../4_10/trainobj.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +55,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../4_10" />
   </component>
   <component name="RunManager">
     <configuration name="Lab3_4" type="Application" factoryName="Application" nameIsGenerated="true">
@@ -54,5 +76,16 @@
       <updated>1646035207112</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

@@ -1,5 +1,5 @@
 package dan.lab1_2;
-import sun.lwawt.macosx.CSystemTray;
+
 
 import java.lang.reflect.Array;
 import java.util.Arrays;

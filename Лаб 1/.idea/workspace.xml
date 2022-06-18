@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56e3b064-7d15-4496-b929-5378a4e45461" name="Changes" comment="" />
+    <list default="true" id="56e3b064-7d15-4496-b929-5378a4e45461" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Лаб 1_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Лаб 1_2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Лаб 1_2/src/dan/lab1_2/lab1_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Лаб 1_2/src/dan/lab1_2/lab1_2.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,7 +45,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Лаб 2" />
   </component>
   <component name="RunManager">
     <configuration name="lab1" type="Application" factoryName="Application" nameIsGenerated="true">

@@ -127,19 +127,19 @@ public class Lab3_4_10 {
         System.out.println("Вариант 4 №10");
 
 
-//        passanger c_pass = new passanger();
-//        c_pass.add_pas("Вася", 10000);
-//        FileOutputStream pass_file_w = new FileOutputStream("passobj.txt");
-//        ObjectOutputStream passobj_w = new ObjectOutputStream(pass_file_w);
-//        passobj_w.writeObject(c_pass);
-//        passobj_w.close();
-//
-//        train c_train = new train();
-//        c_train.add_train("Питер","Москва",4,6,20,1200);
-//        FileOutputStream train_file_w = new FileOutputStream("trainobj.txt");
-//        ObjectOutputStream trainobj_w = new ObjectOutputStream(train_file_w);
-//        trainobj_w.writeObject(c_train);
-//        trainobj_w.close();
+        Passanger c_pass = new Passanger();
+        c_pass.add_pas("Вася", 10000);
+        FileOutputStream pass_file_w = new FileOutputStream("passobj.txt");
+        ObjectOutputStream passobj_w = new ObjectOutputStream(pass_file_w);
+        passobj_w.writeObject(c_pass);
+        passobj_w.close();
+
+        Train c_train = new Train();
+        c_train.add_train("Питер","Москва",4,6,20,1200);
+        FileOutputStream train_file_w = new FileOutputStream("trainobj.txt");
+        ObjectOutputStream trainobj_w = new ObjectOutputStream(train_file_w);
+        trainobj_w.writeObject(c_train);
+        trainobj_w.close();
 
         FileInputStream pass_file = new FileInputStream("passobj.txt");
         ObjectInputStream passobj = new ObjectInputStream(pass_file);
@@ -287,19 +287,19 @@ public class Lab3_4_10 {
             }
 
 
-            //passanger c_pass = new passanger();
-            //c_pass.add_pas("Вася", 10000);
-            FileOutputStream pass_file_w = new FileOutputStream("passobj.txt");
-            ObjectOutputStream passobj_w = new ObjectOutputStream(pass_file_w);
-            passobj_w.writeObject(passangers);
-            passobj_w.close();
-
-            //train c_train = new train();
-            //c_train.add_train("Питер","Москва",4,6,20,1200);
-            FileOutputStream train_file_w = new FileOutputStream("trainobj.txt");
-            ObjectOutputStream trainobj_w = new ObjectOutputStream(train_file_w);
-            trainobj_w.writeObject(trains);
-            trainobj_w.close();
+//            //passanger c_pass = new passanger();
+//            //c_pass.add_pas("Вася", 10000);
+//            FileOutputStream pass_file_w = new FileOutputStream("passobj.txt");
+//            ObjectOutputStream passobj_w = new ObjectOutputStream(pass_file_w);
+//            passobj_w.writeObject(passangers);
+//            passobj_w.close();
+//
+//            //train c_train = new train();
+//            //c_train.add_train("Питер","Москва",4,6,20,1200);
+//            FileOutputStream train_file_w = new FileOutputStream("trainobj.txt");
+//            ObjectOutputStream trainobj_w = new ObjectOutputStream(train_file_w);
+//            trainobj_w.writeObject(trains);
+//            trainobj_w.close();
         }
 
     }

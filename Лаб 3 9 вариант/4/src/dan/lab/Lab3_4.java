@@ -162,19 +162,19 @@ public class Lab3_4 {
         System.out.println("Вариант 4 №9");
         System.out.println("Старт систетмы Интернет-магазин");
 
-//        item itemss = new item();
-//        itemss.add_item("IPhone", 6000, 5);
-//        FileOutputStream items_file_w = new FileOutputStream("itemsobj.txt");
-//        ObjectOutputStream itemsobj_w = new ObjectOutputStream(items_file_w);
-//        itemsobj_w.writeObject(itemss);
-//        itemsobj_w.close();
-//
-//        client clientss = new client();
-//        clientss.add_new_client("Вася", 2000);
-//        FileOutputStream clients_file_w = new FileOutputStream("clientsobj.txt");
-//        ObjectOutputStream clientsobj_w = new ObjectOutputStream(clients_file_w);
-//        clientsobj_w.writeObject(clientss);
-//        clientsobj_w.close();
+        Item itemss = new Item();
+        itemss.add_item("IPhone", 6000, 5);
+        FileOutputStream items_file_w = new FileOutputStream("itemsobj.txt");
+        ObjectOutputStream itemsobj_w = new ObjectOutputStream(items_file_w);
+        itemsobj_w.writeObject(itemss);
+        itemsobj_w.close();
+
+        Client clientss = new Client();
+        clientss.add_new_client("Вася", 2000);
+        FileOutputStream clients_file_w = new FileOutputStream("clientsobj.txt");
+        ObjectOutputStream clientsobj_w = new ObjectOutputStream(clients_file_w);
+        clientsobj_w.writeObject(clientss);
+        clientsobj_w.close();
 
 
         FileInputStream items_file = new FileInputStream("itemsobj.txt");
@@ -336,17 +336,17 @@ while (true) {
 
 
     //items.add_item("IPhone", 6000, 5);
-    FileOutputStream items_file_w = new FileOutputStream("itemsobj.txt");
-    ObjectOutputStream itemsobj_w = new ObjectOutputStream(items_file_w);
-    itemsobj_w.writeObject(items);
-    itemsobj_w.close();
-
-
-    //clients_list.add_new_client("Вася", 2000);
-    FileOutputStream clients_file_w = new FileOutputStream("clientsobj.txt");
-    ObjectOutputStream clientsobj_w = new ObjectOutputStream(clients_file_w);
-    clientsobj_w.writeObject(clients_list);
-    clientsobj_w.close();
+//    FileOutputStream items_file_w = new FileOutputStream("itemsobj.txt");
+//    ObjectOutputStream itemsobj_w = new ObjectOutputStream(items_file_w);
+//    itemsobj_w.writeObject(items);
+//    itemsobj_w.close();
+//
+//
+//    //clients_list.add_new_client("Вася", 2000);
+//    FileOutputStream clients_file_w = new FileOutputStream("clientsobj.txt");
+//    ObjectOutputStream clientsobj_w = new ObjectOutputStream(clients_file_w);
+//    clientsobj_w.writeObject(clients_list);
+//    clientsobj_w.close();
 }
 
 

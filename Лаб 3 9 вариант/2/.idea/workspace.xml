@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="384a2b70-6f91-4dfc-a60e-ec835600986a" name="Changes" comment="" />
+    <list default="true" id="384a2b70-6f91-4dfc-a60e-ec835600986a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Лаб 1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Лаб 1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Лаб 1_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Лаб 1_2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Лаб 1_2/src/dan/lab1_2/lab1_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Лаб 1_2/src/dan/lab1_2/lab1_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Лаб 2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Лаб 2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3/out/production/lab3_3/daniil/lab/lab3_3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../3/out/production/lab3_3/daniil/lab/lab3_3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/clientsobj.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../4/clientsobj.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/itemsobj.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../4/itemsobj.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/out/production/lab3_4/dan/lab/lab3_4$client.class" beforeDir="false" afterPath="$PROJECT_DIR$/../4/out/production/lab3_4/dan/lab/lab3_4$client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/out/production/lab3_4/dan/lab/lab3_4$item.class" beforeDir="false" afterPath="$PROJECT_DIR$/../4/out/production/lab3_4/dan/lab/lab3_4$item.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/out/production/lab3_4/dan/lab/lab3_4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../4/out/production/lab3_4/dan/lab/lab3_4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/src/dan/lab/lab3_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../4/src/dan/lab/Lab3_4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_10/out/production/4_10/dan/lab/lab3_4_10$passanger.class" beforeDir="false" afterPath="$PROJECT_DIR$/../4_10/out/production/4_10/dan/lab/lab3_4_10$passanger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_10/out/production/4_10/dan/lab/lab3_4_10$train.class" beforeDir="false" afterPath="$PROJECT_DIR$/../4_10/out/production/4_10/dan/lab/lab3_4_10$train.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_10/out/production/4_10/dan/lab/lab3_4_10.class" beforeDir="false" afterPath="$PROJECT_DIR$/../4_10/out/production/4_10/dan/lab/lab3_4_10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_10/passobj.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../4_10/passobj.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_10/src/dan/lab/lab3_4_10.java" beforeDir="false" afterPath="$PROJECT_DIR$/../4_10/src/dan/lab/Lab3_4_10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_10/trainobj.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../4_10/trainobj.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,5 +75,16 @@
       <updated>1645788261944</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

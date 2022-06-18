@@ -6,7 +6,7 @@ import java.util.Scanner;
 import java.util.logging.SocketHandler;
 
 
-public class lab_7 {
+public class Lab_7 {
 
     public static void main(String[] args) {
         System.out.println("Вариант 1 №9");
