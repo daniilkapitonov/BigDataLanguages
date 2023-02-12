@@ -2,40 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1358b404-3921-4aba-9e88-6022299e5498" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Лаб 1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Лаб 1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Лаб 1_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Лаб 1_2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Лаб 1_2/src/dan/lab1_2/lab1_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Лаб 1_2/src/dan/lab1_2/lab1_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Лаб 2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Лаб 2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Лаб 3 9 вариант/2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Лаб 3 9 вариант/2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Лаб 3 9 вариант/3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Лаб 3 9 вариант/3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Лаб 3 9 вариант/3/out/production/lab3_3/daniil/lab/lab3_3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Лаб 3 9 вариант/3/out/production/lab3_3/daniil/lab/lab3_3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Лаб 3 9 вариант/4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Лаб 3 9 вариант/4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Лаб 3 9 вариант/4/clientsobj.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Лаб 3 9 вариант/4/clientsobj.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Лаб 3 9 вариант/4/itemsobj.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Лаб 3 9 вариант/4/itemsobj.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Лаб 3 9 вариант/4/out/production/lab3_4/dan/lab/lab3_4$client.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Лаб 3 9 вариант/4/out/production/lab3_4/dan/lab/lab3_4$client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Лаб 3 9 вариант/4/out/production/lab3_4/dan/lab/lab3_4$item.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Лаб 3 9 вариант/4/out/production/lab3_4/dan/lab/lab3_4$item.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Лаб 3 9 вариант/4/out/production/lab3_4/dan/lab/lab3_4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Лаб 3 9 вариант/4/out/production/lab3_4/dan/lab/lab3_4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Лаб 3 9 вариант/4/src/dan/lab/lab3_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Лаб 3 9 вариант/4/src/dan/lab/Lab3_4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Лаб 3 9 вариант/4_10/out/production/4_10/dan/lab/lab3_4_10$passanger.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Лаб 3 9 вариант/4_10/out/production/4_10/dan/lab/lab3_4_10$passanger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Лаб 3 9 вариант/4_10/out/production/4_10/dan/lab/lab3_4_10$train.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Лаб 3 9 вариант/4_10/out/production/4_10/dan/lab/lab3_4_10$train.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Лаб 3 9 вариант/4_10/out/production/4_10/dan/lab/lab3_4_10.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Лаб 3 9 вариант/4_10/out/production/4_10/dan/lab/lab3_4_10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Лаб 3 9 вариант/4_10/passobj.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Лаб 3 9 вариант/4_10/passobj.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Лаб 3 9 вариант/4_10/src/dan/lab/lab3_4_10.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Лаб 3 9 вариант/4_10/src/dan/lab/Lab3_4_10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Лаб 3 9 вариант/4_10/trainobj.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Лаб 3 9 вариант/4_10/trainobj.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Лаб 4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Лаб 4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Лаб 4/out/production/Lab_4/daniil/lab.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Лаб 4/out/production/Lab_4/daniil/lab.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Лаб 5/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Лаб 5/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Лаб 5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Лаб 5/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Лаб 5/1,2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Лаб 5/1,2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Лаб 5/3,4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Лаб 5/3,4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Лаб 5/3,4/new_f_nm.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Лаб 5/3,4/new_f_nm.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../9,1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../9,1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../9,1/out/production/Lab9_1_1/dan/lab/Lab_9_1_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../9,1/out/production/Lab9_1_1/dan/lab/Lab_9_1_1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Экзамен/Final_Lab.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Лаб 7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Лаб 7/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Лаб 7/out/production/lab_7/daniil/lab_7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Лаб 7/src/daniil/lab_7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Лаб 8/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Лаб 8/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Лаб 8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Лаб 8/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Лаб 9/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Лаб 9/.idea/misc.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +43,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Лаб 7" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
